@@ -60,7 +60,7 @@ export default function FeaturedProject({ instanceId }) {
             ))}
           </h2>
           
-          <p className="text-base md:text-lg text-black dark:text-gray-400 mb-8 leading-relaxed font-light">
+          <p className="text-base md:text-lg text-black dark:text-gray-400 mb-8 leading-relaxed font-light font-body">
             {featured.desc}
           </p>
           

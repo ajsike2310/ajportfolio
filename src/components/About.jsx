@@ -34,10 +34,10 @@ export default function About({ instanceId }) {
     <section ref={containerRef} className="py-20 md:py-32 px-6 md:px-20 min-h-screen flex items-center relative">
       <div className="max-w-4xl mx-auto mix-blend-difference relative z-10">
         <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white about-text">{about.heading}</h2>
-        <p className="text-lg md:text-2xl lg:text-4xl leading-snug font-medium text-gray-200 about-text mb-6">
+        <p className="text-lg md:text-2xl lg:text-4xl leading-snug font-medium text-gray-200 about-text mb-6 font-body">
           {about.text1}
         </p>
-        <p className="text-base md:text-xl lg:text-2xl text-gray-400 font-light about-text">
+        <p className="text-base md:text-xl lg:text-2xl text-gray-400 font-light about-text font-body">
           {about.text2}
         </p>
       </div>

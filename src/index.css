@@ -14,6 +14,21 @@ html, body {
   -webkit-hyphens: none;
 }
 
+.font-body {
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: 0;
+}
+
+.text-3d {
+  text-shadow: 
+    1px 1px 0px rgba(150, 150, 150, 0.8),
+    2px 2px 0px rgba(130, 130, 130, 0.8),
+    3px 3px 0px rgba(110, 110, 110, 0.8),
+    4px 4px 0px rgba(90, 90, 90, 0.8),
+    5px 5px 0px rgba(70, 70, 70, 0.8),
+    6px 6px 15px rgba(0, 0, 0, 0.5);
+}
+
 html.dark body {
   background-color: #000;
   color: #fff;

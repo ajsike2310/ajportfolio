@@ -50,10 +50,10 @@ export default function Testimonials({ instanceId }) {
               key={i}
               className={`col-start-1 row-start-1 w-full transition-all duration-1000 ease-in-out ${i === activeIdx ? 'opacity-100 translate-y-0 z-10' : 'opacity-0 translate-y-10 z-0 pointer-events-none'}`}
             >
-              <p className="text-xl md:text-3xl text-white font-medium leading-relaxed mb-8">
+              <p className="text-xl md:text-3xl text-white font-medium leading-relaxed mb-8 font-body">
                 {test.quote}
               </p>
-              <p className="text-white font-bold tracking-wider uppercase text-sm">
+              <p className="text-white font-bold tracking-wider uppercase text-sm font-body">
                 {test.name}
               </p>
             </div>

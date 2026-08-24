@@ -54,8 +54,8 @@ function ProjectCard({ project }) {
           </a>
         )}
       </div>
-      <p className="text-black dark:text-gray-400 mb-6 relative z-10">{project.desc}</p>
-      <p className="text-sm font-mono text-black dark:text-gray-500 relative z-10">{project.tech}</p>
+      <p className="text-black dark:text-gray-400 mb-6 relative z-10 font-body">{project.desc}</p>
+      <p className="text-sm font-mono text-black dark:text-gray-500 relative z-10 font-body">{project.tech}</p>
     </div>
   );
 }

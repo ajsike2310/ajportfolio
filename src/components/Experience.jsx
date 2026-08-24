@@ -59,7 +59,7 @@ export default function Experience({ instanceId }) {
                     <span className="text-gray-400 font-mono text-sm block mb-2">{job.period}</span>
                     <h3 className="text-xl md:text-2xl font-bold text-white mb-1">{job.role}</h3>
                     <h4 className="text-lg text-gray-300 mb-4">{job.company}</h4>
-                    <p className="text-gray-400 text-sm md:text-base leading-relaxed">
+                    <p className="text-gray-400 text-sm md:text-base leading-relaxed font-body">
                       {job.desc}
                     </p>
                   </div>

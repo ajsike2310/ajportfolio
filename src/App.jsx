@@ -12,7 +12,6 @@ import Testimonials from './components/Testimonials';
 import Socials from './components/Socials';
 import Contact from './components/Contact';
 import Background from './components/Background';
-import Scene3D from './components/Scene3D';
 import ThemeToggle from './components/ThemeToggle';
 import Marquee from './components/Marquee';
 import Preloader from './components/Preloader';
@@ -51,7 +50,6 @@ function App() {
       <Preloader isLoading={loading} />
       <ThemeToggle />
       <Background />
-      <Scene3D />
       <Hero instanceId="hero" />
       <Marquee instanceId="marquee" />
       <About instanceId="about" />
