@@ -66,12 +66,12 @@ export default function Hero({ instanceId }) {
         {hero.name && (
           <p className="font-mono text-gray-400 uppercase tracking-[0.3em] text-xs sm:text-sm mb-3">{hero.name}</p>
         )}
-        <h1 className="font-black tracking-tighter leading-none">
-          <span id="title-1" className="block text-white overflow-hidden uppercase whitespace-nowrap" style={{fontSize:'clamp(1.8rem, 8vw, 6rem)'}}><SplitText text={hero.title1} delay={animReady ? 0.1 : 99} /></span>
-          <span id="title-2" className="block text-gray-300 overflow-hidden uppercase whitespace-nowrap" style={{fontSize:'clamp(1.8rem, 8vw, 6rem)'}}><SplitText text={hero.title2} delay={animReady ? 0.3 : 99} /></span>
-          <span id="title-3" className="block text-white font-signature mt-2 tracking-normal overflow-hidden whitespace-nowrap" style={{fontSize:'clamp(1.5rem, 7vw, 7rem)'}}><SplitText text={hero.title3} delay={animReady ? 0.5 : 99} /></span>
+        <h1 className="font-black tracking-tighter leading-[1.1] md:leading-tight">
+          <span id="title-1" className="block text-white overflow-hidden uppercase" style={{fontSize:'clamp(1.8rem, 6vw, 4.5rem)'}}><SplitText text={hero.title1} delay={animReady ? 0.1 : 99} /></span>
+          <span id="title-2" className="block text-gray-300 overflow-hidden uppercase" style={{fontSize:'clamp(1.8rem, 6vw, 4.5rem)'}}><SplitText text={hero.title2} delay={animReady ? 0.3 : 99} /></span>
+          <span id="title-3" className="block text-white font-signature mt-2 tracking-normal overflow-hidden" style={{fontSize:'clamp(1.5rem, 5vw, 4.5rem)'}}><SplitText text={hero.title3} delay={animReady ? 0.5 : 99} /></span>
         </h1>
-        <p id="subtitle" className="mt-4 text-sm sm:text-base md:text-xl text-gray-300 max-w-2xl mx-auto font-light px-2">
+        <p id="subtitle" className="mt-6 text-sm sm:text-base md:text-xl text-gray-300 max-w-2xl mx-auto font-light px-4 break-words">
           <SplitText text={hero.subtitle} delay={animReady ? 0.8 : 99} />
         </p>
         
